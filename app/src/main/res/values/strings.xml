@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">InfopagoBanco</string>
+    <string name="btnCamara">Tomar foto</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="app_Camara">Fotografiar Comprobantes</string>
+    <string name="titulo_cuit">IMPORTANTE: debe probar escanear un qr</string>
+    <string name="btnMenuQr">Ingreso con scan QR</string>
+    <string name="btnMenuCuit">Ingreso con cuit</string>
+    <string name="app_menu">Elegir opción para ingreso</string>
+    <string name="app_Qr">Escannear Qr factura</string>
+    <string name="titulo_metodo">Método:</string>
+    <string name="titulo_cuenta">Cuenta:</string>
+    <string name="titulo_Principal_datos">Complete la información del pago:</string>
+
+
+</resources>

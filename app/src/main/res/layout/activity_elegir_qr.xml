@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Elegir_cuit_qrActivity">
+
+    <Button
+        android:id="@+id/btnPantallaQr"
+        android:layout_width="300dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="85dp"
+        android:text="@string/btnMenuQr"
+        android:textSize="16sp"
+        app:icon="@drawable/ic_menuqr"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128" />
+
+    <Button
+        android:id="@+id/btnPantallaCuit"
+        android:layout_width="300dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="80dp"
+        android:text="@string/btnMenuCuit"
+        app:icon="@drawable/ic_menucuit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPantallaQr"
+        app:layout_constraintVertical_bias="0.732" />
+
+    <TextView
+        android:layout_width="381dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="8dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="@string/titulo_cuit"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnPantallaCuit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPantallaQr"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

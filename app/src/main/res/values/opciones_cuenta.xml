@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="strCuentas">
+        <item>Banco Francés</item>
+        <item>Banco Galicia</item>
+        <item>Banco Macro</item>
+        <item>Banco Nación</item>
+        <item>Banco Provincia</item>
+        <item>Banco Santander</item>
+    </string-array>
+</resources>
